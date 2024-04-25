@@ -155,11 +155,6 @@ if(hasProperty('target') && target == 'android') {
         }
     }
 
-
-
-    signing {
-        sign publishing.publications.mavenJava
-    }
 }
 
 ext {
